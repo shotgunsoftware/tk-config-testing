@@ -1,4 +1,4 @@
-# Copyright (c) 2019 Shotgun Software Inc.
+# Copyright (c) 2016 Shotgun Software Inc.
 #
 # CONFIDENTIAL AND PROPRIETARY
 #
@@ -8,11 +8,8 @@
 # agreement to the Shotgun Pipeline Toolkit Source Code License. All rights
 # not expressly granted therein are reserved by Shotgun Software Inc.
 
-# the type of dynamic content
-type: "shotgun_list_field"
+# this file defines all the different disk locations that this config uses.
+# these paths can be altered at project creation time to ensure that they map
+# to the correct location.
 
-# the shotgun entity type to connect to
-entity_type: "Asset"
-
-# the shotgun field to use for the folder name
-field_name: "sg_asset_type"
+# the zero configuration setup does not define any storage points.

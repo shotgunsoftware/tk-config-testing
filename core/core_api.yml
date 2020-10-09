@@ -10,5 +10,6 @@
 #
 
 location:
-    type: path
-    path: $TK_CORE_REPO_ROOT
+    type: app_store
+    name: tk-core
+    version: v0.19.13
