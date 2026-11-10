@@ -31,7 +31,7 @@ engines:
         location:
           type: app_store
           name: tk-multi-demo
-          version: v1.5.2
+          version: v1.5.3-beta10
 
     location:
       type: app_store
