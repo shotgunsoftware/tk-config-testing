@@ -11,8 +11,8 @@ jobs:
     # Only PRs opened (and triggered) by the Toolkitty GitHub App, from a
     # branch in this repo. Replace the login if the app slug differs.
     if: >-
-      github.event.pull_request.user.login == 'toolkitty[bot]' &&
-      github.event.sender.login == 'toolkitty[bot]' &&
+      github.event.pull_request.user.login == 'toolkitty-app[bot]' &&
+      github.event.sender.login == 'toolkitty-app[bot]' &&
       github.event.pull_request.head.repo.full_name == github.repository &&
       startsWith(github.event.pull_request.head.ref, 'update/')
     runs-on: ubuntu-latest
